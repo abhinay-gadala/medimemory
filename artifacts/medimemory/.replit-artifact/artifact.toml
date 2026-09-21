@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "MediMemory"
+description = "A mobile-first care memory app that turns discharge instructions into a clear timeline patients and caregivers can understand, remember, retrieve, and verify against the original source."
+version = "1.0.0"
+id = "artifacts/medimemory"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 25289
+
+[services.development]
+run = "pnpm --filter @workspace/medimemory run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/medimemory", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/medimemory/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "25289"
+BASE_PATH = "/"

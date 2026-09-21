@@ -1,0 +1,1 @@
+- [Demo reliability](demo-reliability.md) — keep the core product story deterministic; browser permissions and external AI should be optional enhancements.

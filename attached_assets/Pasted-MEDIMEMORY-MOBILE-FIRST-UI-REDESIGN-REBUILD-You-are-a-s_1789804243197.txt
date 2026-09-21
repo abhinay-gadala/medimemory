@@ -1,0 +1,1000 @@
+MEDIMEMORY — MOBILE-FIRST UI REDESIGN / REBUILD
+
+You are a senior product designer and frontend engineer specializing in premium iOS-style mobile applications.
+
+I already have a MediMemory application. The current UI is primarily desktop-oriented.
+
+I want you to REDESIGN AND REBUILD THE FRONTEND UI into a true MOBILE-FIRST experience.
+
+IMPORTANT:
+Do NOT simply make the existing desktop layout responsive.
+Do NOT shrink the desktop sidebar and cards.
+Do NOT preserve the current desktop information architecture.
+
+Instead, redesign the interface specifically for a smartphone, inspired by Apple's iOS design language and the visual reference image attached to this conversation.
+
+The final result should feel like a polished iPhone healthcare application, not a responsive website.
+
+==================================================
+PRODUCT
+==================================================
+
+Product name:
+
+MediMemory
+
+Tagline:
+
+"Your care memory, after the hospital."
+
+Core concept:
+
+MediMemory is an AI healthcare memory layer between the hospital and the home.
+
+The product helps patients and caregivers:
+
+Capture → Understand → Remember → Retrieve → Show Source
+
+It is NOT a medical diagnosis app.
+It is NOT a generic medical chatbot.
+
+==================================================
+PRIMARY DESIGN REFERENCE
+==================================================
+
+Use the attached MediMemory UI/reference image as the primary visual direction.
+
+Match the following characteristics:
+
+- Minimalist
+- Premium
+- Apple-like
+- Calm healthcare aesthetic
+- Large editorial typography
+- Generous whitespace
+- Soft rounded cards
+- Very subtle shadows
+- Thin borders
+- Muted mint / teal accents
+- Warm off-white background
+- High readability
+- Large touch targets
+- Elegant micro-interactions
+- No visual clutter
+
+The UI should feel similar in design philosophy to Apple's Health / Journal / Reminders / Wallet ecosystem, but DO NOT copy Apple's proprietary interface exactly.
+
+The product should have its own MediMemory identity.
+
+==================================================
+CRITICAL MOBILE REQUIREMENT
+==================================================
+
+Design for:
+
+390px × 844px
+375px × 812px
+430px × 932px
+
+The application must work beautifully on all three.
+
+Desktop support can exist, but MOBILE IS THE PRIMARY PRODUCT.
+
+At mobile width:
+
+- NO LEFT SIDEBAR
+- NO DESKTOP HEADER
+- NO HORIZONTAL DESKTOP NAVIGATION
+- NO MULTI-COLUMN DASHBOARD
+- NO tiny text
+- NO desktop tables
+
+Use a native-feeling bottom navigation.
+
+==================================================
+MOBILE APP STRUCTURE
+==================================================
+
+Use these main navigation tabs:
+
+1. Today
+2. Timeline
+3. Ask
+4. Caregiver
+
+Bottom navigation:
+
+┌──────────────────────────────────────┐
+│                                      │
+│ Home    Timeline    Ask    Caregiver │
+│  icon      icon     icon     icon    │
+└──────────────────────────────────────┘
+
+Use a floating/raised iOS-style bottom navigation container if appropriate.
+
+Keep it inside the safe area.
+
+Use large enough touch targets.
+
+==================================================
+SCREEN 1 — SPLASH / ONBOARDING
+==================================================
+
+Create a beautiful first screen.
+
+Centered:
+
+MediMemory logo
+
+MediMemory
+
+"Your care memory,
+after the hospital."
+
+Supporting text:
+
+"Turn discharge instructions into a care timeline you can understand, remember and retrieve."
+
+Primary button:
+
+"Get Started"
+
+Secondary action:
+
+"Use Demo Document"
+
+At the bottom:
+
+Small privacy statement:
+
+"Your care information stays under your control."
+
+Visual style:
+
+Extremely minimal.
+
+No excessive illustrations.
+
+Use a small elegant medical pulse/heartbeat symbol inside a rounded mint icon.
+
+==================================================
+SCREEN 2 — TODAY
+==================================================
+
+This is the main screen.
+
+Top:
+
+Small date:
+
+TUESDAY · 22 SEPTEMBER 2026
+
+Large editorial heading:
+
+"Good morning,"
+"Arjun."
+
+The name should use the MediMemory accent color.
+
+Supporting text:
+
+"Here's the small picture of what matters today."
+
+Top-right:
+
+Small circular avatar:
+
+AR
+
+Do NOT use the huge desktop greeting from the current screenshot.
+
+On mobile it should fit naturally.
+
+--------------------------------------------------
+TODAY'S CARE
+--------------------------------------------------
+
+Section title:
+
+"Today's care"
+
+Small action:
+
+"See all"
+
+Medicine card:
+
+┌──────────────────────────────┐
+│ 💊                           │
+│ Medicine A                   │
+│ 500 mg · After food          │
+│ Twice daily · 7 days         │
+│                              │
+│ Morning        Evening       │
+└──────────────────────────────┘
+
+Second card:
+
+Medicine B
+
+Once daily · 14 days
+
+Next:
+
+8:00 PM
+
+Use compact but readable cards.
+
+--------------------------------------------------
+UPCOMING
+--------------------------------------------------
+
+Card:
+
+Follow-up
+
+02 October 2026
+
+"Bring requested blood test report."
+
+Arrow:
+
+→
+
+--------------------------------------------------
+TRACEABLE MEMORY
+--------------------------------------------------
+
+Create a subtle card:
+
+"Your care memory is traceable."
+
+"Every important answer can be linked back to its original instruction."
+
+CTA:
+
+"View sources"
+
+This is important because SOURCE TRACEABILITY is a core product differentiator.
+
+==================================================
+SCREEN 3 — TIMELINE
+==================================================
+
+Title:
+
+"Care Timeline"
+
+Subtitle:
+
+"Everything important, in one place."
+
+Create a vertical timeline.
+
+Example:
+
+TODAY
+22 SEP
+
+Medicine A
+500 mg · Twice daily
+After food
+
+Medicine B
+Once daily
+
+Avoid strenuous physical activity
+Until follow-up
+
+↓
+
+25 SEP
+
+Medicine A
+Course completed
+
+↓
+
+02 OCT
+
+Follow-up appointment
+
+Bring blood test report
+
+Use a thin vertical timeline line.
+
+Use small circular timeline markers.
+
+Cards should be lightweight and clean.
+
+Do not make this look like a project management timeline.
+
+It should feel like Apple's Calendar/Health ecosystem.
+
+==================================================
+SCREEN 4 — ASK MEDIMEMORY
+==================================================
+
+This is one of the most important screens.
+
+Header:
+
+"Ask MediMemory"
+
+Subtitle:
+
+"Ask about your care instructions."
+
+Use a conversational interface.
+
+Example user message:
+
+"When is my follow-up?"
+
+AI response:
+
+"Your documented follow-up appointment is on 02 October 2026.
+
+You are also advised to bring the requested blood test report."
+
+Below the answer:
+
+SOURCE CARD
+
+┌──────────────────────────────┐
+│ Document                     │
+│ Discharge Summary · Page 3  │
+│                              │
+│ Show Source →                │
+└──────────────────────────────┘
+
+This SOURCE CARD is extremely important.
+
+Then show suggested questions:
+
+"What medicines do I have?"
+
+"What did the doctor say about activity?"
+
+"What should I bring to the next visit?"
+
+At bottom:
+
+Large voice interaction button.
+
+Circular microphone button.
+
+Text:
+
+"Tap to speak"
+
+Use subtle voice waveform animation while recording.
+
+==================================================
+SCREEN 5 — SHOW SOURCE
+==================================================
+
+This is the KILLER DEMO SCREEN.
+
+Header:
+
+"Discharge Summary"
+
+Small:
+
+"Page 3 of 5"
+
+Show a realistic fictional discharge document.
+
+Document should look like an actual hospital discharge summary.
+
+Use fictional patient:
+
+Arjun Rao
+
+Fictional hospital:
+
+Sunrise General Hospital
+
+Include:
+
+MEDICATIONS
+
+Medicine A
+500 mg
+Twice daily after food
+Continue for 7 days
+
+Medicine B
+Once daily
+Continue for 14 days
+
+FOLLOW-UP
+
+02 October 2026
+
+Bring requested blood test report.
+
+INSTRUCTIONS
+
+Avoid strenuous physical activity until follow-up.
+
+Highlight the exact relevant section in a soft mint highlight.
+
+Bottom floating card:
+
+"Highlighted source"
+
+"Follow-up instruction"
+
+Button:
+
+"Close"
+
+The user must immediately understand:
+
+AI answer
+↓
+Original document
+↓
+Exact source
+
+==================================================
+SCREEN 6 — ADD CARE NOTE
+==================================================
+
+Header:
+
+"Add Care Note"
+
+Large centered microphone.
+
+When recording:
+
+"Listening..."
+
+Show subtle waveform.
+
+Example note:
+
+"Doctor asked us to bring the blood report during the next visit."
+
+After recording show:
+
+PATIENT-REPORTED NOTE
+
+"Doctor asked us to bring the blood report during the next visit."
+
+Small explanation:
+
+"Reported by patient/caregiver. Verify with your healthcare provider if needed."
+
+Use a yellow/amber subtle information indicator.
+
+Button:
+
+"Save Note"
+
+Do NOT make this look like an official doctor instruction.
+
+==================================================
+SCREEN 7 — CAREGIVER
+==================================================
+
+Header:
+
+"Caregiver"
+
+Patient card:
+
+AR
+
+Arjun Rao
+
+Sunrise General Hospital
+
+Discharged:
+18 September 2026
+
+Section:
+
+"Today's care"
+
+2 medicines
+
+1 activity instruction
+
+Section:
+
+"Upcoming"
+
+Follow-up
+
+02 October 2026
+
+Bring blood test report
+
+Primary button:
+
+"Share Care Summary"
+
+Keep this screen extremely simple.
+
+==================================================
+SCREEN 8 — OFFICE KIT
+==================================================
+
+Create a small Office Kit indicator in the mobile header.
+
+When opened:
+
+"Office Kit"
+
+Show:
+
+Phone connected
+
+✓ Document received
+
+✓ Information extracted
+
+✓ Care memory updated
+
+✓ Synced to phone
+
+The phone remains the PRIMARY product.
+
+The laptop is only a supporting processing/visualization surface.
+
+==================================================
+DESIGN SYSTEM
+==================================================
+
+Typography:
+
+Use a premium modern sans-serif for UI text.
+
+Prefer:
+
+- SF Pro Display if available
+- Inter as fallback
+
+For large editorial headings, use a refined serif such as:
+
+- New York style serif if available
+- Georgia as fallback
+
+The large greeting should have an editorial Apple-like feel.
+
+DO NOT use:
+
+- Poppins
+- Comic fonts
+- Generic startup fonts
+- Excessive bold text
+
+Typography hierarchy:
+
+Display:
+36–42px
+
+Large section heading:
+26–30px
+
+Card title:
+17–19px
+
+Body:
+15–16px
+
+Supporting text:
+13–14px
+
+Navigation:
+12–13px
+
+Never make important healthcare information smaller than 14px.
+
+==================================================
+COLOR SYSTEM
+==================================================
+
+Primary background:
+
+Warm off-white / very light cream.
+
+Example:
+
+#F8F7F2
+
+Primary text:
+
+Deep charcoal / near black.
+
+Example:
+
+#17292A
+
+Primary accent:
+
+Muted MediMemory teal.
+
+Example:
+
+#2C7A78
+
+Secondary mint:
+
+#DDF2EC
+
+Soft teal:
+
+#BFE4DB
+
+Warning / patient-reported:
+
+Soft warm amber.
+
+Example:
+
+#F3D99B
+
+Danger should be extremely restrained.
+
+Avoid bright hospital blue.
+
+Avoid neon green.
+
+Avoid gradients unless extremely subtle.
+
+==================================================
+CARDS
+==================================================
+
+Cards:
+
+border-radius:
+20–24px
+
+Use:
+
+1px subtle border
+
+Very soft shadow
+
+Large internal padding.
+
+Do NOT use heavy shadows.
+
+Do NOT create excessive cards.
+
+Each card must have a clear purpose.
+
+==================================================
+ICONS
+==================================================
+
+Use Lucide React icons.
+
+Do NOT use emoji as the actual UI icons.
+
+Use:
+
+Calendar
+Pill
+Clock
+Mic
+FileText
+Users
+ChevronRight
+House
+Activity
+Search
+Share
+ArrowLeft
+
+Icons should be:
+
+16–22px
+
+Stroke-based.
+
+Minimal.
+
+==================================================
+BOTTOM NAVIGATION
+==================================================
+
+Fixed at bottom.
+
+Items:
+
+Today
+Timeline
+Ask
+Caregiver
+
+Selected tab:
+
+Muted teal icon + subtle mint background.
+
+Unselected:
+
+Muted gray.
+
+Use iOS-style spacing.
+
+Respect:
+
+env(safe-area-inset-bottom)
+
+==================================================
+ANIMATIONS
+==================================================
+
+Use Framer Motion if already installed.
+
+Animations must be subtle.
+
+Use:
+
+fade
+
+slide
+
+scale
+
+spring
+
+Examples:
+
+Cards gently fade upward.
+
+Source highlighting animates into view.
+
+Timeline nodes appear sequentially.
+
+Voice waveform animates while recording.
+
+Avoid:
+
+large page transitions
+
+bouncing buttons
+
+excessive animations
+
+==================================================
+MOBILE INTERACTION
+==================================================
+
+The entire UI should feel touch-native.
+
+Buttons:
+
+Minimum 44px touch target.
+
+Cards should be tappable.
+
+Use bottom sheets where appropriate.
+
+For:
+
+Show Source
+
+Add Care Note
+
+Office Kit
+
+prefer iOS-style sheets/modal presentations rather than desktop dialogs.
+
+==================================================
+RESPONSIVE BEHAVIOR
+==================================================
+
+At:
+
+390px:
+
+Perfect mobile layout.
+
+375px:
+
+No clipping.
+
+430px:
+
+Use additional whitespace but do not stretch cards excessively.
+
+768px+:
+
+You may introduce a centered mobile-device presentation or tablet layout.
+
+1024px+:
+
+Desktop layout can exist as a secondary experience.
+
+But MOBILE MUST REMAIN THE PRIORITY.
+
+==================================================
+REMOVE FROM CURRENT DESKTOP UI
+==================================================
+
+Remove:
+
+- Large desktop sidebar
+- Large horizontal desktop header
+- Wide two-column dashboard
+- Huge empty desktop spaces
+- Desktop-style tables
+- Oversized cards
+- Desktop-only navigation
+
+The current screenshot has too much unused horizontal space.
+
+The new design should use the phone's vertical space efficiently.
+
+==================================================
+IMPORTANT: DO NOT CHANGE THE PRODUCT LOGIC
+==================================================
+
+Preserve existing functionality and data wherever possible.
+
+This task is primarily:
+
+UI redesign
+UX redesign
+Responsive architecture
+Mobile navigation
+Visual polish
+
+Do not break existing:
+
+- AI retrieval
+- timeline
+- source linking
+- caregiver functionality
+- document processing
+- demo data
+- Office Kit logic
+
+If existing backend functionality exists, connect the new mobile UI to it.
+
+If something does not exist yet, create a clean demo implementation.
+
+==================================================
+DEMO DATA
+==================================================
+
+Use this fictional patient:
+
+Arjun Rao
+
+Hospital:
+
+Sunrise General Hospital
+
+Discharge:
+
+18 September 2026
+
+Medicine A:
+
+500 mg
+Twice daily
+After food
+7 days
+
+Medicine B:
+
+Once daily
+14 days
+
+Follow-up:
+
+02 October 2026
+
+Instruction:
+
+Avoid strenuous physical activity until follow-up.
+
+Test:
+
+Bring requested blood test report.
+
+==================================================
+IMPORTANT HACKATHON REQUIREMENT
+==================================================
+
+This UI will be demonstrated on an iQOO smartphone.
+
+Therefore:
+
+THE PHONE EXPERIENCE IS THE PRODUCT.
+
+Do not optimize the design around the laptop.
+
+The laptop/Office Kit should only support the phone experience.
+
+The first 30 seconds of the demo must be understandable on the phone without explaining the UI.
+
+==================================================
+FINAL QUALITY CHECK
+==================================================
+
+Before finishing, test:
+
+375 × 812
+390 × 844
+430 × 932
+
+Verify:
+
+[ ] No horizontal scrolling
+
+[ ] No clipped text
+
+[ ] No desktop sidebar on mobile
+
+[ ] Bottom navigation works
+
+[ ] Camera flow works
+
+[ ] Demo document works
+
+[ ] Timeline works
+
+[ ] Ask MediMemory works
+
+[ ] Voice UI works
+
+[ ] Show Source works
+
+[ ] Source highlighting works
+
+[ ] Care Note works
+
+[ ] Caregiver works
+
+[ ] Office Kit screen works
+
+[ ] Reset Demo works
+
+[ ] All buttons have touch-friendly targets
+
+[ ] Typography is readable
+
+[ ] UI feels premium
+
+[ ] UI feels like a real iPhone app
+
+[ ] No generic SaaS dashboard appearance
+
+[ ] No excessive colors
+
+[ ] No excessive shadows
+
+[ ] No unnecessary features
+
+==================================================
+FINAL DESIGN PRINCIPLE
+==================================================
+
+The application should communicate this feeling:
+
+"Healthcare information is complicated.
+MediMemory makes it feel simple."
+
+The final product should look like:
+
+Apple-level simplicity
++
+Healthcare trust
++
+AI intelligence
++
+MediMemory's own visual identity.
+
+DO NOT produce a generic Tailwind dashboard.
+
+BUILD A MOBILE-FIRST PRODUCT.

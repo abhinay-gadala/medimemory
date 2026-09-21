@@ -1,0 +1,18 @@
+{
+  "short_name": "MediMemory",
+  "name": "MediMemory",
+  "description": "Your care memory, after the hospital.",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192 512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#f6f3ec",
+  "theme_color": "#285f5b",
+  "display": "standalone",
+  "orientation": "portrait"
+}

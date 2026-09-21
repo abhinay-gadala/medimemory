@@ -1,0 +1,8 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="112" fill="#285F5B"/>
+  <rect x="24" y="24" width="464" height="464" rx="92" stroke="#44857D" stroke-width="8" stroke-opacity="0.4"/>
+  <!-- Central Pulse / Care Activity Symbol -->
+  <path d="M128 268H188L220 180L276 332L320 236L348 268H384" stroke="#9BD1C2" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Warm Handoff / Memory Dot -->
+  <circle cx="384" cy="180" r="28" fill="#DF8A76" stroke="#285F5B" stroke-width="8"/>
+</svg>
