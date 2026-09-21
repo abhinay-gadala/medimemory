@@ -1,0 +1,4 @@
+{
+  "buildCommand": "pnpm --filter @workspace/medimemory run build",
+  "outputDirectory": "artifacts/medimemory/dist/public"
+}
